@@ -23,7 +23,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="dscatalog-navbar">
+        <div className="collapse navbar-collapse menu-nav" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
               <a href="link" className="active">
