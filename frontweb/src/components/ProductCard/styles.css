@@ -1,6 +1,5 @@
 .product-card {
   background-color: #ededed;
-  border: 2px solid red;
   border-radius: 5px;
   padding: 30px;
   margin-bottom: 30px;
@@ -11,8 +10,7 @@
 }
 
 .card-top-container img {
-  width: 220px;
-  height: 165px;
+  width: 100%;
 }
 .card-botton-container {
   padding: 12px 12px;
@@ -48,20 +46,3 @@
     width: 100%;
   }
 }
-/*
-@media (min-width: 768px) {
-
-  .card-botton-container p {
-    width: 300px;
-  }
-  .card-botton-container button {
-    width: 260px;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-botton-container button {
-    width: 100%;
-  }
-}
-*/

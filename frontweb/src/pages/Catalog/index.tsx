@@ -4,12 +4,7 @@ import ProductCard from 'components/ProductCard';
 const Catalog = () => {
   return (
     <div className="container my-4">
-      <div className="search-card">
-        <div className="search-card-button">
-          <ButtonSearch />
-        </div>
-      </div>
-
+      <ButtonSearch />
       <div className="row">
         <div className="col-sm-6 col-lg-4 col-xl-3">
           <ProductCard />
